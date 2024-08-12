@@ -1,0 +1,55 @@
+body{
+    background-color: #a06060;
+}
+.kit{
+text-align: center;
+font-size: 3.5em;
+font-family: Arial, Helvetica, sans-serif;
+color:#fff;
+font-weight: 800;
+}
+.drum{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    flex:1;
+    margin-top:200px;
+}
+.but
+{
+    height:150px;
+    width:150px;
+    font-size: 4em;
+    border:10px solid #404B69;
+    border-radius:7px;
+    font-weight: 700;
+}
+
+.w{
+    background-image: url("drum_images/tom1.png");
+    background-size: cover;
+}
+
+.a{
+    background-image: url("drum_images/tom2.png");
+}
+.s{
+    background-image:url("drum_images/tom3.png");
+}
+
+.d{
+    background-image: url("drum_images/tom4.png");
+}
+
+.j{
+    background-image: url("drum_images/snare.png");
+}
+
+.k{
+background-image: url("drum_images/crash.png");
+}
+
+.l{
+    background-image: url("drum_images/kick.png");
+}
